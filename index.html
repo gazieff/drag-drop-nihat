@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="dropZone">
+        <div id="dropBox1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>M3</h2>
+        </div>
+        <div id="dropBox2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>M4</h2>
+        </div>
+        <div id="dropBox3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>M5</h2>
+        </div>
+        <div id="dropBox4" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>M6</h2>
+        </div>
+    </div>
+    <div id="cars" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="cat" src="https://i.pinimg.com/originals/ef/11/32/ef1132e9b28a4f7196a6d27c693644e2.jpg" draggable="true" ondragstart="drag(event)" width="300" />
+        <img id="dog" src="http://s2.glbimg.com/04l56N50kwtml6ydKxNiOooxdIhR1dml4OQN4exgWpfPn6UelgS73VmFwLjFl8_Q/e.glbimg.com/og/ed/f/original/2012/12/21/bmw1.jpg" draggable="true" ondragstart="drag(event)" width="300" />
+        <img id="mouse" src="https://www.alainclass.com/wp-content/uploads/2019/12/2014-BMW-M6-White-3153-2.jpg" draggable="true" ondragstart="drag(event)" width="300" />
+        <img id="fish" src="https://i.pinimg.com/originals/9b/49/35/9b49358dba7b2f5c19136a3f6c618f73.jpg" draggable="true" ondragstart="drag(event)" width="300" />
+    </div>
+    <button onclick="check()"  >Refresh</button>
+</body>
+<script src="scirpt.js"></script>
+
+</html>
